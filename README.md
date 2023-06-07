@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# QuadB Tech - ReactJs Internship Task
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a React application that allows users to view a list of shows, see show summary, book shows, and view their bookings. The application fetches show data from an API and stores booking details in the local storage.
 
-## Available Scripts
+## Getting Started
 
-In the project directory, you can run:
+To get started with the application, follow the steps below:
 
-### `npm start`
+1. Clone the repository to your local machine.
+2. Navigate to the project directory.
+3. Install the dependencies by running the command: `npm install`.
+4. Start the development server by running the command: `npm start`.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The application will be accessible at `http://localhost:3000` in your web browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Application Structure
 
-### `npm test`
+The application consists of the following components:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Shows Page**: This page displays a list of shows fetched from the API. Users can click on a show to view its summary and book the show.
+2. **Show Summary Page**: This page shows the summary of a selected movie show. Users can also choose to book the show from this page.
+3. **Booking Form Page**: This page allows users to enter their booking details and save them to the local storage.
+4. **Bookings Page**: This page displays a list of bookings made by the user. The booking details are retrieved from the local storage.
 
-### `npm run build`
+## Local Storage
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The application uses the browser's local storage to store booking details. When a user books a show, the booking details are saved in the local storage. The bookings page retrieves the stored data and displays it to the user.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Technologies Used
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The following technologies and libraries are used in this application:
 
-### `npm run eject`
+- React
+- React Router
+- Tailwind css
+- Axios
+- Local Storage
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Contact
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+If you have any questions or suggestions regarding the application, please feel free to contact:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Ayush Bathre: ayushbathre3101@gmail.com
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+We hope you enjoy using this React Application!
